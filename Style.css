@@ -118,6 +118,9 @@ nav .nav .ul {
     color: White;
     margin-top: -20px;
 }
+.contaniar p{
+    color: white;
+}
 
 .content p{
     margin-left: 26%;
@@ -197,7 +200,7 @@ section .about h1{
 
 .social a{
     text-decoration: none;
-    color: cornsilk;
+    color: rgb(59, 52, 21);
 }
 
 
@@ -212,10 +215,20 @@ cursor: pointer;
 }
 .projects a{
     text-decoration: none;
-    color: tomato;
-    font-weight: bolder;
-
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #2E4053;
 }
+
+.social a{
+    color: white;
+}
+
+
 
 @media only screen and (max-width:700px){
  
@@ -227,19 +240,30 @@ nav .nav ul{
  
 
 }
+ #image{
+  
+    
+ margin-top: 80px;
+   
+}
+#home{
+
+    background-size:cover;
+    background-position: center;
+    height: 50%;
+}
 
 nav .nav ul li a{
-    margin-right: 5px;
-    font-size: 15px;
+    margin-right: 3px;
+    font-size: 17px;
     font-weight: bold;
 }
+
 
 nav .nav h1{
     display: none;
 }
-.contaniar .avator img{
-    margin-top: 60px;
-}
+
 .contaniar h2{
     font-size: 35px;
 }
@@ -249,24 +273,39 @@ nav .nav h1{
     
 }
 .contaniar .cont{
-    font-size: 16px;
+    font-size: 20px;
     padding: 20px;
     margin-top: -30px;
     
 }
-p{
-    font-size: 16px;
+.content p{
+    font-size: 18px;
+   margin-left: 15%;
+   margin-right: 15%;
 }
 section .about h1{
    
     font-size: 30px;
 
 }
+.about p, h3 , h1{
+    margin-left: 10px;
+}
 .about ul li{
     font-size: 16px;
     
 }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
