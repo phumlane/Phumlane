@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+#home{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+nav{
+    float: left;
+    width: 100%;
+    height: 8vh;
+    background-color: #2E4053 ;
+    position: fixed;
+}
+nav .nav li{
+    padding: 2px;
+    display: inline;
+    list-style: none;  
+
+}
+nav .nav ul{
+ float: right;
+ margin-right: 40%;
+
+}
+
+nav .nav h1{
+    float: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: cornsilk;
+    font-weight: bold;
+}
+nav .nav ul li a{
+    
+    
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.nav i{
+    display: none;
+}
+
+.contaniar .avator img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+    margin-top: 5%;
+    object-fit: cover;
+    
+
+    object-position: 0 -8px;
+}
+
+.contaniar .avator{
+    text-align: center;
+}
+
+.contaniar h2{
+    font-size: 50px;
+    
+    margin-bottom: 3px
+}
+.contaniar .avator h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contaniar h3{
+    margin-top: -7px;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.contaniar .cont{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.contaniar .cont .email{
+    text-decoration: none;
+    color: 	#16A085;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: -17px;
+
+    
+}
+hr{
+    height: 1px;
+    background-color: grey;
+    margin-top: 80px;
+}
+
+nav .nav .ul {
+    align-items: center;
+    margin-left: 100;
+}
+
+.contaniar .cont span{
+    font-size: 50px;
+    
+    
+}
+.contaniar span{
+    color: White;
+    margin-top: -20px;
+}
+
+.content p{
+    margin-left: 26%;
+    margin-right: 26%;
+    color: white;
+}
+
+section .about h1{
+   
+    padding-top: 60px;
+    background-image: url(pattern.jpg);
+    height: 10vh;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+
+.contaniar button{
+    background-color: #16A085;;
+    border-radius: 8px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 15px;
+    border-color: white;
+    height: 40px;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+
+
+.about{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about h1{
+    color: tomato;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.about .list{
+    display: inline-block;
+    
+}
+
+
+.about  li{
+    list-style: circle;
+}
+
+#contact{
+    height:6vh;
+    background-color:#2E4053;
+    color: cornsilk;
+}
+
+
+
+ .social {
+    text-align: center;
+    
+}
+
+.social i{
+    padding-left: 35px;
+    margin-top: 10px;
+   font-size: 25px;
+   
+}
+
+.social a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+
+.checkbtn{
+font-size: 30px;
+color: white;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+
+}
+.projects a{
+    text-decoration: none;
+    color: tomato;
+    font-weight: bolder;
+
+}
+
+@media only screen and (max-width:700px){
+ 
+
+nav .nav ul{
+ float: left;
+ padding: 6px;
+ margin-right: 15%;
+ 
+
+}
+
+nav .nav ul li a{
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav .nav h1{
+    display: none;
+}
+.contaniar .avator img{
+    margin-top: 60px;
+}
+.contaniar h2{
+    font-size: 35px;
+}
+.contaniar h3{
+    
+    font-size: 18px;
+    
+}
+.contaniar .cont{
+    font-size: 16px;
+    padding: 20px;
+    margin-top: -30px;
+    
+}
+p{
+    font-size: 16px;
+}
+section .about h1{
+   
+    font-size: 30px;
+
+}
+.about ul li{
+    font-size: 16px;
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
